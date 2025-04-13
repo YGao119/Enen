@@ -1,0 +1,53 @@
+# Secrets and environment variables
+src/robinhood/_keys.txt
+.env
+*.env
+.env.*  
+!.env.example
+
+# Python virtual environments
+venv/
+env/
+.venv/
+.python-version
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Package management
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Distribution / packaging
+dist/
+build/
+*.so
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development settings
+local_settings.py
+
+# Logs
+logs/
+*.log
+
+# Robinhood specific
+**/robinhood/cache/
+**/robinhood/credentials.json
